@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokedex</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="pokebola" src="src/img/pokebola.png" alt="pokébola">
+        <h1 class="titulo">MapaDev Week - Julho/2022</h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar">
+            <img src="/src/img/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Bulbasaur</h2>
+                    <p class="numero"># 001</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Bulbasaur.PNG" alt="Bulbasaur">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">É encontrado em pastagens e florestas em toda a região de Kanto. Foi observado que
+                        a lâmpada de
+                        um Bulbasaur piscará em azul quando estiver pronta para evoluir. Se não quer evoluir, luta para
+                        resistir à transformação. Muitos Bulbasaur se reúnem todos os anos em um jardim escondido em
+                        Kanto para evoluir para Ivysaur em uma cerimônia liderada por um Venusaur.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Ivysaur</h2>
+                    <p class="numero"># 002</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Ivysaur.PNG" alt="Ivysaur">
+                </div>
+
+                <div>
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O peso da planta impede que Ivysaur corra rápido e fique em pé nas patas traseiras
+                        e força suas
+                        pernas a crescerem resistentes. Quando sua flor está pronta para florescer, ela exala um aroma
+                        distinto e forte e adocicado e começa a inchar. Ivysaur também começará a passar mais tempo na
+                        luz do sol em preparação para sua próxima evolução. A exposição à luz solar aumenta a força de
+                        Ivysaur e sua planta.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Venosaur</h2>
+                    <p class="numero"># 003</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Venosaur.PNG" alt="Venosaur">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Venusaur usa sua flor para captar os raios do sol para convertê-los em energia, o
+                        que faz com
+                        que a flor fique mais vibrante. A flor libera um perfume suave que atrai Pokémon e acalma as
+                        emoções. Este perfume torna-se mais forte após um dia chuvoso.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Chikorita</h2>
+                    <p class="numero"># 152</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Chikorita.PNG" alt="Chikorita">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">No topo de sua cabeça há uma folha grande e verde que geralmente é mais longa que
+                        seu corpo. Um
+                        aroma calmante emana da folha, que pode acalmar Pokémon em batalha. A folha também é usada para
+                        sentir a temperatura e a umidade. Chikorita procura ativamente e aproveita o calor do sol.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Bayleef</h2>
+                    <p class="numero"># 153</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Bayleef.PNG" alt="Bayleef">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O aroma que flutua das folhas ao redor do pescoço tem um cheiro picante e tem
+                        vários efeitos
+                        benéficos para quem o inala. A fragrância tem uma combinação de efeitos energizantes,
+                        estimulantes e curativos. Bayleef raramente pode ser encontrado em pastagens.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Meganium</h2>
+                    <p class="numero"># 154</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Meganium.PNG" alt="Meganium">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">As pétalas do Meganium liberam um aroma que acalma sentimentos agressivos e seu
+                        hálito tem o
+                        poder de reviver grama e plantas mortas. Seus poderes calmantes e regenerativos podem afetar até
+                        mesmo aqueles que estão por perto. Meganium tende a ser muito dócil e foi retratado como um
+                        pacificador no anime. Raramente pode ser encontrado vivendo em pastagens.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Treecko</h2>
+                    <p class="numero"># 252</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Treecko.PNG" alt="Treecko">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Quando em estado selvagem, Treecko vive dentro de florestas cobertas de vegetação.
+                        Faz sua casa
+                        em árvores altas e ataca qualquer um que se aproxime de seu ninho. Por sua natureza territorial,
+                        é conhecido por ser o protetor das árvores da floresta. Treecko é conhecido por sua
+                        personalidade calma e serena. Ele nunca entrará em pânico em nenhuma circunstância, mesmo quando
+                        confrontado com um inimigo maior.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Grovyle</h2>
+                    <p class="numero"># 253</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Grovyle.PNG" alt="Grovyle">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Grovyle tem três longas folhas em seus pulsos, uma grande folha no topo de sua
+                        cabeça e duas
+                        caudas que têm uma aparência frondosa. Essa aparência frondosa permite que ele seja camuflado
+                        nas florestas onde vive.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Sceptile</h2>
+                    <p class="numero"># 254</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Sceptile.PNG" alt="Sceptile">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sceptile é um Pokémon da selva. As sementes em suas costas contêm nutrientes, que
+                        dizem ser
+                        capazes de revitalizar as árvores. É capaz de saltar livremente de galho em galho. Embora tenha
+                        a capacidade de cortar árvores grossas, é conhecido por cuidar com amor das plantas da floresta.
+                        Este Pokémon regula a temperatura do corpo tomando sol.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Turtwig</h2>
+                    <p class="numero"># 387</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Turtwig.PNG" alt="Turtwig">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Uma pequena muda cresce em uma mancha marrom em sua cabeça. Esta muda murchará se o
+                        Pokémon ficar
+                        com sede. Por ser um Pokémon à base de plantas, Turtwig geralmente se nutre através da
+                        fotossíntese. Ele também bebe água, o que endurece sua casca baseada no solo. Turtwig torna-se
+                        mais enérgico quando exposto a luz solar suficiente.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Grotle</h2>
+                    <p class="numero"># 388</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Grotle.PNG" alt="Grotle">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Grotle tem a capacidade de sentir onde a água pura brota e carrega outros Pokémon
+                        nas costas para
+                        essas fontes. Ele vive em florestas, mas sai durante o dia para permitir mais luz solar em suas
+                        árvores. Grotle também foi observado vivendo perto de água de nascente limpa. Bagas crescem nas
+                        árvores, atraindo algumas espécies de Pokémon. Diz-se que as bagas que cresce são doces e muito
+                        deliciosas.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Torterra</h2>
+                    <p class="numero"># 389</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Torterra.PNG" alt="Torterra">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A concha grande e limpa de Torterra sustenta a vida de muitos pequenos Pokémon, que
+                        ocasionalmente se reúnem e constroem seus ninhos sobre a concha. Alguns até nascem e passam a
+                        vida inteira lá. Torterra migra em grupos, em busca de água limpa, criando a ilusão de florestas
+                        em movimento. No entanto, normalmente é imóvel. Os povos antigos acreditavam que o solo continha
+                        uma gigantesca Torterra vivendo embaixo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Snivy</h2>
+                    <p class="numero"># 495</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Snivy.PNG" alt="Snivy">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Tem uma folha grande e palmada com três pontas na extremidade da cauda. Essa cauda
+                        é capaz de
+                        realizar fotossíntese, o que permite que Snivy se mova mais rapidamente. No entanto, a cauda
+                        começará a cair quando Snivy perder energia. Este Pokémon tem um comportamento calmo e
+                        controlado.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Servine</h2>
+                    <p class="numero"># 496</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Servine.PNG" alt="Servine">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Este Pokémon rápido esconde-se na folhagem espessa ou nas sombras para evitar
+                        ataques antes de
+                        retaliar. Três folhas palmadas crescem ao longo de suas costas e cauda. Essas folhas são capazes
+                        de realizar fotossíntese, mas apenas enquanto estão limpas. Servine fará um grande esforço para
+                        ficar livre de sujeira por esse motivo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Serperior</h2>
+                    <p class="numero"># 497</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Serperior.PNG" alt="Serperior">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Serperior só atacará com força total contra oponentes que não se incomodam com seu
+                        brilho
+                        penetrante, que é dito ser capaz de interromper os movimentos de seus inimigos. É capaz de
+                        amplificar a energia solar com seu corpo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Chespin</h2>
+                    <p class="numero"># 650</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Chespin.PNG" alt="Chespin">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O escudo de Chespin pode protegê-lo de ataques poderosos. Os espinhos em sua cabeça
+                        geralmente
+                        são macios, mas também podem ser endurecidos para atacar. Apesar de ter uma natureza curiosa que
+                        costuma causar problemas, Chespin mantém uma visão otimista e não se preocupa com pequenos
+                        detalhes.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Quilladin</h2>
+                    <p class="numero"># 651</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Quilladin.PNG" alt="Quilladin">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Quilladin não é agressivo e nunca inicia brigas, embora seja conhecido por
+                        exercitar a parte
+                        inferior do corpo ao se deparar com outros Quilladin. Quando é forçado a se defender, ele confia
+                        em seu casco para desviar os ataques, antes de contra-atacar com seus espinhos afiados.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Chesnaught</h2>
+                    <p class="numero"># 652</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Chesnaught.PNG" alt="Chesnaught">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Chesnaught é conhecido por seu corpo semelhante a um tanque; é capaz de virar um
+                        caminhão de 50
+                        toneladas. Uma vez que ele entra em sua posição defensiva com as mãos cobrindo o rosto, ele pode
+                        resistir à explosão de uma bomba. Ele não hesitará em usar seu corpo robusto para proteger seus
+                        aliados do perigo.
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Rowlet</h2>
+                    <p class="numero"># 722</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Rowlet.PNG" alt="Rowlet">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Pokémon noturno, armazena energia durante o dia através da fotossíntese. Ele se
+                        aproxima dos
+                        oponentes deslizando silenciosamente, antes de desencadear uma saraivada de chutes. Este Pokémon
+                        é capaz de girar a cabeça quase 180 graus e tem excelente visão noturna. Suas penas são tão
+                        afiadas quanto lâminas, que lança contra os inimigos do ar.
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Dartrix</h2>
+                    <p class="numero"># 723</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Dartrix.PNG" alt="Dartrix">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Este Pokémon alerta é sensível à presença de outros ao seu redor e é capaz de
+                        lançar ataques
+                        contra inimigos invisíveis atrás dele. Penas de lâmina afiadas são armazenadas dentro de suas
+                        asas e podem impulsioná-las com precisão surpreendente. Ao dobrar as penas, pode até alterar a
+                        trajetória de seus golpes. Dartrix é narcisista por natureza, gastando muito tempo cuidando de
+                        suas penas para manter sua aparência.
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Decidueye</h2>
+                    <p class="numero"># 724</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Decidueye.PNG" alt="Decidueye">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Embora este Pokémon seja legal e cauteloso por natureza, ele começa a entrar em
+                        pânico se for
+                        surpreendido. Ele pode se esconder dos oponentes mascarando sua presença, permitindo que ele
+                        ataque inimigos inconscientes.[1] Leva apenas um décimo de segundo para arrancar, mirar e
+                        disparar uma pena de flecha de suas asas. Não é apenas rápido, mas também preciso, capaz de
+                        atingir alvos a mais de 800 metros de distância.
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Grookey</h2>
+                    <p class="numero"># 810</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Grookey.PNG" alt="Grookey">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O pelo verde de Grookey pode criar energia a partir da luz do sol, semelhante à
+                        forma como as
+                        plantas usam suas folhas verdes para fotossintetizar. Diz-se que está cheio de curiosidade sem
+                        limites.
+                </div>
+            </li>
+
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Thwackey</h2>
+                    <p class="numero"># 811</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Thwackey.PNG" alt="Thwackey">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Thwackey pode usar suas duas baquetas para criar uma batida rítmica. Quanto mais
+                        rápido um ritmo
+                        Thwackey cria, mais respeito ele ganha de seus pares. Muitas vezes, quando ele faz batidas
+                        rápidas na batalha, Thwackey fica tão preso no ritmo que não percebe que seu oponente foi
+                        nocauteado. Para desenvolver ainda mais seu senso de ritmo, ele o usa constantemente na vida
+                        cotidiana.
+                </div>
+            </li>
+
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Rillaboom</h2>
+                    <p class="numero"># 812</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Rillaboom.PNG" alt="Rillaboom">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Rillaboom sempre carrega seu tambor de assinatura nas costas e o puxa para fora
+                        quando está em
+                        batalha. Este bumbo é feito a partir de um toco de árvore, com vários tocos de galhos grossos
+                        saindo dele, que formam as pernas do bumbo, bem como tons médios e altos. Rillaboom também
+                        carrega duas baquetas em seus punhos e as tira para bater seu tambor.
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Sprigatito</h2>
+                    <p class="numero"># ???</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="/src/img/Sprigatito.PNG" alt="Sprigatito">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sprigatito é um Pokémon felino quadrúpede coberto de pêlo verde pálido. A
+                        composição da pele é
+                        semelhante à das plantas, permitindo que ela absorva a luz solar para obter energia.
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta">
+            <img src="/src/img/seta.png" alt="seta avançar">
+        </button>
+    </main>
+</body>
+
+</html>
