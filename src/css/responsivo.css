@@ -1,6 +1,9 @@
 @media (max-width: 620px) {
+    .cabecalho {
+        margin: 7%;
+    }
+
     .pokemon-slider {
-        padding: 0 15px;
         gap: 10px;
     }
 
@@ -13,20 +16,28 @@
         align-items: center;
     }
 
+    .btn-seta img {
+        width: 20px;
+        height: 20px;
+    }
+
     .lista-pokemons {
         height: 480px;
     }
 
     .cartao .imagem-pokemon {
         max-height: 230px;
+        max-width: 100%;
+        max-height: 200px;
+        padding: 20px;
     }
+}
 
-    .cartao .informacoes .nome {
-        max-width: 50%;
-        font-size: 18px;
-    }
+.cartao .informacoes .nome {
+    max-width: 50%;
+    font-size: 18px;
+}
 
-    .cartao .informacoes .numero {
-        font-size: 14px;
-    }
+.cartao .informacoes .numero {
+    font-size: 14px;
 }
