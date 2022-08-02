@@ -79,15 +79,15 @@ body {
 }
 
 .fundo-1 {
-    background: url(/src/img/fundo-1.png) no-repeat;
+    background: url(src/img/fundo-1.png) no-repeat;
 }
 
 .fundo-2 {
-    background: url(/src/img/fundo-2.png) no-repeat;
+    background: url(src/img/fundo-2.png) no-repeat;
 }
 
 .fundo-3 {
-    background: url(/src/img/fundo-3.png) no-repeat;
+    background: url(src/img/fundo-3.png) no-repeat;
 }
 
 .cartao .informacoes {
