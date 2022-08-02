@@ -60,7 +60,7 @@ body {
 }
 
 .cartao {
-    background-image: url(../img/fundo-card-1.png);
+    background-image: url(../img/fundo-1.png);
     opacity: 0;
     height: 100%;
     display: flex;
@@ -79,15 +79,15 @@ body {
 }
 
 .fundo-1 {
-    background: url(src/img/fundo-1.png) no-repeat;
+    background: url(../img/fundo-1.png) no-repeat;
 }
 
 .fundo-2 {
-    background: url(src/img/fundo-2.png) no-repeat;
+    background: url(../img/fundo-2.png) no-repeat;
 }
 
 .fundo-3 {
-    background: url(src/img/fundo-3.png) no-repeat;
+    background: url(../img/fundo-3.png) no-repeat;
 }
 
 .cartao .informacoes {
